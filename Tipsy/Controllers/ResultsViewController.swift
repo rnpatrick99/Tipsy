@@ -21,6 +21,8 @@ class ResultsViewController: UIViewController {
         super.viewDidLoad()
         
         totalLabel.text = result
+        
+        // fixed bug on this line on 8/19/21
         settingsLabel.text = "Split between \(split) people, with \(tip)% tip."
 
     }
