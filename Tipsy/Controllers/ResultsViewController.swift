@@ -22,7 +22,8 @@ class ResultsViewController: UIViewController {
         
         totalLabel.text = result
         
-        settingsLabel.text = "Spit between \(split) people, with \(tip)% tip."
+        // fixed error in code 
+        settingsLabel.text = "Split between \(split) people, with \(tip)% tip."
 
     }
     
